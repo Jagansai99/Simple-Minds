@@ -1,0 +1,22 @@
+.red{background-color:#dc3545;
+      box-shadow: 1px 1px 1px 1px black;
+      border-radius: 7px;}
+.head{background-color:cyan;}
+ span.ani{padding-left: 50px;
+       font-style:  italic;
+       animation: blink 1s linear infinite;
+       border:none;font-size: 2em;
+      }
+  .ani::first-letter{color:red;}
+
+@keyframes blink{
+                 0%{opacity: 10;}
+                 50%{opacity: .7;} 
+                 100%{opacity: 1;}
+                }  
+
+ .btm:hover{background-color: indigo;text-decoration: underline red;}               
+
+ .add{color:cornsilk;}
+ .add2{padding-bottom: 20px;}
+ .size{font-size: 1.5em}
